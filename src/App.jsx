@@ -1,6 +1,11 @@
+import './index.css';
+import './layout.css';
+
 function App() {
   return (
-    <div>Hello World</div>
+    <div className='layout'>
+      Hello
+    </div>
   )
 }
 

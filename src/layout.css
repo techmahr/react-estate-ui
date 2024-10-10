@@ -1,0 +1,24 @@
+.layout {
+  background-color: blue;
+  height: 100vh;
+  max-width: 1366px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+@media (max-width: 1200px) {
+  .layout {
+    background-color: yellow;
+  }
+}
+@media (max-width: 992px) {
+  .layout {
+    background-color: orange;
+  }
+}
+@media (max-width: 768px) {
+  .layout {
+    background-color: red;
+  }
+}/*# sourceMappingURL=layout.css.map */
